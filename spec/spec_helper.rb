@@ -42,3 +42,7 @@ end
 Spork.each_run do
 end
 
+# Webrat configuration
+Webrat.configure do |config|
+  config.mode = :rails
+end
